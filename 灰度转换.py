@@ -1,6 +1,7 @@
 #导入cv 模块
 import cv2 as cv
 
+print(cv.__version__)
 #读取图片
 img = cv.imread('img.png')
 
